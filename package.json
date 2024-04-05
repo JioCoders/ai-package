@@ -1,0 +1,32 @@
+{
+  "name": "ai-package",
+  "version": "1.0.0",
+  "description": "ai-practice-openai-api-chatgpt-dall.e3-artificial-intelligence",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JioCoders/ai-package.git"
+  },
+  "keywords": [
+    "chatgpt",
+    "ai",
+    "dall-e3",
+    "openai",
+    "api"
+  ],
+  "author": "Jiocoders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JioCoders/ai-package/issues"
+  },
+  "homepage": "https://github.com/JioCoders/ai-package#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "gitignore": "^0.7.0",
+    "nodemon": "^3.1.0"
+  }
+}
