@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "exit 0"
   },
   "repository": {
@@ -23,10 +24,14 @@
   "bugs": {
     "url": "https://github.com/JioCoders/ai-package/issues"
   },
+  "publishConfig": {
+    "@jiocoders:registry": "https://npm.pkg.github.com"
+  },
   "homepage": "https://github.com/JioCoders/ai-package#readme",
   "dependencies": {
+    "@ngrok/ngrok": "^1.2.0",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "gitignore": "^0.7.0",
     "nodemon": "^3.1.0"
   }
 }
